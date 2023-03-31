@@ -1,4 +1,4 @@
-if (window.location.href.indexOf('https://coinmarketcap.com/currencies/') === 0) {
+if (window.location.href.indexOf('https://coinmarketcap.com/') === 0) {
     coinmarketcapHandler()
 }
 

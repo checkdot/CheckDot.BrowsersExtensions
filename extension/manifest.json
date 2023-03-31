@@ -10,7 +10,10 @@
   ],
   "content_scripts": [
     {
-      "matches": ["*://coinmarketcap.com/currencies/*"],
+      "matches": [
+        "*://coinmarketcap.com/currencies/*",
+        "*://coinmarketcap.com/*/currencies/*"
+      ],
       "js": [
         "jquery.min.js",
         "checkdot.js",
