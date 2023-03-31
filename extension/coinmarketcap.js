@@ -14,7 +14,7 @@ async function coinmarketcapHandler() {
 
         const insertHTML = `<div class="sc-aef7b723-0 cevGxl" display="flex" style="flex-wrap:wrap; margin-bottom: 10px;">
                                 <a target="_blank" href="${buildTrackerURL(riskScoreItem)}"><div class="namePill namePillPrimary"
-                                     style="${style}">Trust score: ${riskScoreItem.score}
+                                     style="${style}">Trust score: <span style="font-weight: bold;">${riskScoreItem.score}</span>
                                 </div></a>
                                 <div class="namePill">Powered by <a target="_blank" href="https://checkdot.io/">Checkdot.io</a></div>
                             </div>`
