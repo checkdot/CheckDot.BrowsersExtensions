@@ -3,7 +3,7 @@ async function coinmarketcapHandler() {
     const projectName = $('span.fLa-dNu').text();
 
     if (projectTicker.length <= 0 || projectName.length <= 0) {
-        console.warn(`Checkdot trust score extension error: coinmarketcap page structure was change, lease contact developers`);
+        console.warn(`Checkdot trust score extension error: coinmarketcap page structure was change, please contact developers`);
         return
     }
 
