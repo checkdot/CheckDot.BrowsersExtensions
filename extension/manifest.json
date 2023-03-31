@@ -2,12 +2,12 @@
   "manifest_version": 3,
   "name": "Checkdot trust score",
   "version": "0.0.1",
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
   "description": "Provide trust score from checkdot.io for supported tokens on coinmarketcap.com and coingecko.com",
-  "permissions": [
-    "activeTab",
-    "tabs",
-    "scripting"
-  ],
   "host_permissions": [
     "https://checkdotnodeapi.eu-gb.mybluemix.net/*"
   ],
@@ -16,7 +16,6 @@
       "matches": [
         "*://coinmarketcap.com/currencies/*",
         "*://coinmarketcap.com/*/currencies/*",
-        "*://coingecko.com/*/coins/*",
         "*://www.coingecko.com/*/coins/*"
       ],
       "js": [

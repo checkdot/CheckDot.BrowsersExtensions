@@ -20,7 +20,7 @@ async function coingeckoHandler() {
                                      aria-describedby="tooltip" class="tw-inline-block">
                                     <a target="_blank" href="${buildTrackerURL(riskScoreItem)}">
                                         <button class="btn btn-sm tw-outline-btn-md center tw-p-0 tw-w-12 tw-mr-1"
-                                                style="${style}; width: 110px;">Trust
+                                                style="${style}; width: 120px;">Trust
                                             score: &nbsp;<span style="font-weight: bold;">${riskScoreItem.score}</span>
                                         </button>
                                     </a>
@@ -28,7 +28,7 @@ async function coingeckoHandler() {
                             </div>
                             <div
                                 class="tw-block tw-inline-flex tw-py-0.5 tw-h-5 tw-items-center tw-px-2 tw-rounded-md tw-text-xs tw-font-medium tw-bg-gray-100 tw-text-gray-800 tw-mb-1 md:tw-mb-0 dark:tw-text-white dark:tw-bg-white dark:tw-bg-opacity-5">
-                                <i class="far fas tw-mr-0.5 star-color fa-star"></i>Powered by &nbsp;<a target="_blank"
+                                Powered by &nbsp;<a target="_blank"
                                                                                                             href="https://checkdot.io/">Checkdot.io</a>
                             </div>
                         </div>`
