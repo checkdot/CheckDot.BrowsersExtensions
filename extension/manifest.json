@@ -2,10 +2,11 @@
   "manifest_version": 3,
   "name": "Checkdot trust score",
   "version": "0.0.1",
-  "description": "Provide trust score from Checkdot.io for supported tokens on coinmarketcap.com",
+  "description": "Provide trust score from checkdot.io for supported tokens on coinmarketcap.com and coingecko.com",
   "permissions": [
     "activeTab",
-    "tabs"
+    "tabs",
+    "scripting"
   ],
   "host_permissions": [
     "https://checkdotnodeapi.eu-gb.mybluemix.net/*"
