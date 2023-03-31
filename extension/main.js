@@ -2,4 +2,6 @@ if (window.location.href.indexOf('https://coinmarketcap.com/') === 0) {
     coinmarketcapHandler()
 }
 
-// TODO: add coingecko support
+if (window.location.href.indexOf('https://www.coingecko.com/') === 0) {
+    coingeckoHandler()
+}
