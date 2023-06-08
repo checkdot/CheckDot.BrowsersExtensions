@@ -9,7 +9,7 @@
   },
   "description": "Provide trust score from checkdot.io for supported tokens on coinmarketcap.com and coingecko.com",
   "host_permissions": [
-    "https://checkdotnodeapi.eu-gb.mybluemix.net/*"
+    "https://node.checkdot.io/*"
   ],
   "content_scripts": [
     {
@@ -26,5 +26,10 @@
         "main.js"
       ]
     }
-  ]
+  ],
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "mail@checkdot.io"
+    }
+  }
 }

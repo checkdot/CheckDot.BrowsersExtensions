@@ -1,4 +1,4 @@
-const apiDomain = 'https://checkdotnodeapi.eu-gb.mybluemix.net';
+const apiDomain = 'https://node.checkdot.io';
 const trackerURL = 'https://tracker.checkdot.io/project';
 
 async function getRiskScoreItem(projectTicker, projectName) {
